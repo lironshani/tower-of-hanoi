@@ -1,0 +1,10 @@
+.tower {
+  height: 30px;
+  width: 80%;
+  background-color: rgb(255, 210, 143);
+  position: absolute;
+  bottom: 30%;
+  left: 10%;
+  border-radius: 20px;
+  border: 1px solid rgb(82, 67, 46);
+}
