@@ -1,11 +1,11 @@
-function gameState(state = [], action) {
+function gameReducer(state = [], action) {
   switch (action.type) {
-    case CLICK_ROD1:
+    case "CLICK_ROD1":
       return {
         ...state,
-        rod1,
       };
     default:
       return state;
   }
 }
+export { gameReducer };
