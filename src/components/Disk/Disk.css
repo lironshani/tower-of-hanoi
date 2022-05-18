@@ -1,0 +1,18 @@
+.disk {
+  height: 50px;
+  background-color: white;
+  /* position: absolute; */
+  border-radius: 20px;
+}
+.disk-1 {
+  background-color: rgb(204, 187, 99);
+}
+.disk-2 {
+  background-color: rgb(192, 99, 204);
+}
+.disk-3 {
+  background-color: rgb(99, 183, 204);
+}
+.disk-4 {
+  background-color: rgb(99, 204, 146);
+}

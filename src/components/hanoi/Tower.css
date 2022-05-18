@@ -1,26 +1,18 @@
 .tower {
-  height: 30px;
-  width: 80%;
-  background-color: rgb(255, 210, 143);
+  height: 80%;
+  width: 100%;
+  bottom: -20px;
+  display: flex;
+  justify-content: space-around;
   position: absolute;
-  bottom: 15%;
-  left: 10%;
+}
+.rod1,
+.rod2,
+.rod3 {
+  width: 3%;
+  height: 100%;
+  bottom: 0;
   border-radius: 20px;
   /* border: 1px solid rgb(82, 67, 46); */
+  background-color: rgb(255, 208, 138);
 }
-.rod1, .rod2, .rod3{
-  height: 60%;
-  width:3%;
-  position: fixed;
-  bottom:15%;
-  border-radius: 20px;
-  /* border: 1px solid rgb(82, 67, 46); */
-  background-color: rgb(255, 210, 143);
-
-}
-.rod2{
-left: 50%;
-}
-.rod3{
-  left: 87%;
-  }

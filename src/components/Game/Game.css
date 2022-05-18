@@ -1,0 +1,10 @@
+.disks {
+  position: absolute;
+  bottom: 0;
+  width: 33%;
+  min-height: 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 1;
+}

@@ -1,3 +1,8 @@
+body{
+  background-image: url("hanoi.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 .App {
   height: 100%;
   width: 100%;
@@ -13,4 +18,7 @@
     #fffcdc,
     #d9a7c7
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-image: url("hanoi.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
