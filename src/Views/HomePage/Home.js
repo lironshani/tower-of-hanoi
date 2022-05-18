@@ -22,7 +22,9 @@ const Home = () => {
           setDisks={setDisks}
         ></DisksChoose>
       )}
-      {componentToShow === "game" && <Game disks={disks}></Game>}
+      {componentToShow === "game" && (
+        <Game disks={disks} onExit={() => setComponentToShow("main")}></Game>
+      )}
     </div>
   );
 };
