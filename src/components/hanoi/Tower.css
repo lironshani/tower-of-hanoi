@@ -9,10 +9,21 @@
 .rod1,
 .rod2,
 .rod3 {
-  width: 3%;
+  width: 30%;
+  margin-left:30%;
   height: 100%;
   bottom: 0;
   border-radius: 20px;
   /* border: 1px solid rgb(82, 67, 46); */
   background-color: rgb(255, 208, 138);
+}
+.area1:hover,
+.area2:hover,
+.area3:hover {
+  cursor: pointer;
+}
+.area1,
+.area2,
+.area3 {
+  width:10%;
 }

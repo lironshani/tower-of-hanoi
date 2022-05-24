@@ -3,21 +3,20 @@
 .disks3 {
   position: absolute;
   bottom: 0;
-  min-height: 10%;
   display: flex;
   flex-direction: column;
   align-items: center;
   z-index: 1;
 }
 .disks1 {
-  width: 385px;
+  width: 33%;
 }
 .disks2 {
-  width: 1185px;
+  width: 100%;
 
 }
 .disks3 {
-  width: 1980px;
+  width: 166%;
 
 }
 .exit {
@@ -33,4 +32,15 @@
 }
 .exit:hover {
   cursor: pointer;
+}
+.steps {
+  right: 4%;
+  top: 4%;
+  width: 10%;
+  position: absolute;
+  text-align: center;
+  background-color: rgba(223, 223, 223, 0.4);
+  padding: 2% 0;
+  border-radius: 25px;
+  font-size: 110%;
 }
