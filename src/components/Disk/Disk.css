@@ -16,3 +16,7 @@
 .disk-4 {
   background-color: rgb(99, 204, 146);
 }
+.selected {
+  background-color: rgba(170, 170, 170, 0.729);
+
+}
