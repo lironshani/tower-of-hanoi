@@ -3,6 +3,8 @@ import "../Game/Game.css";
 import Tower from "../hanoi/Tower";
 import Disk from "../Disk/Disk";
 import { useSelector, useDispatch } from "react-redux";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faArrowAltCircleLeft } from "@fortawesome/free-solid-svg-icons";
 
 const Game = ({ disks, onExit }) => {
   const initialState = [];
@@ -63,14 +65,16 @@ const Game = ({ disks, onExit }) => {
   return (
     <div className="game">
       <div className="exit" onClick={() => onExit()}>
-        exit
+        <FontAwesomeIcon icon={faArrowAltCircleLeft} />
       </div>
-      <div className="steps">{steps} steps</div>
-      <div className="disks1">{array1}</div>
-      <div className="disks2">{array2}</div>
-      <div className="disks3">{array3}</div>
+      <div className="steps">steps: {steps}</div>
 
-      <Tower onClickRod={handleRodClick}></Tower>
+      <Tower
+        onClickRod={handleRodClick}
+        array1={array1}
+        array2={array2}
+        array3={array3}
+      ></Tower>
     </div>
   );
 };

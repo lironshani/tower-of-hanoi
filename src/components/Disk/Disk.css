@@ -1,7 +1,6 @@
 .disk {
   height: 50px;
   background-color: white;
-  /* position: absolute; */
   border-radius: 20px;
 }
 .disk-1 {
@@ -17,6 +16,5 @@
   background-color: rgb(99, 204, 146);
 }
 .selected {
-  background-color: rgba(170, 170, 170, 0.729);
-
+  background-color: rgba(222, 222, 222, 0.729);
 }

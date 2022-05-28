@@ -3,6 +3,8 @@ import { Select } from "@material-ui/core";
 import { MenuItem } from "@material-ui/core";
 import { FormControl } from "@material-ui/core";
 import { useState } from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faPlay } from "@fortawesome/free-solid-svg-icons";
 
 const DisksChoose = ({
   handleClose,
@@ -38,7 +40,7 @@ const DisksChoose = ({
             cancel
           </div>
           <div className="start" onClick={() => handleStart(disksLocal)}>
-            Start
+            <FontAwesomeIcon icon={faPlay} />
           </div>
         </section>
       </div>
