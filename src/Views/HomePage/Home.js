@@ -10,7 +10,7 @@ const Home = () => {
   const [disks, setDisks] = useState(3);
 
   return (
-    <div className="home">
+    <div>
       {componentToShow === "main" && (
         <Main callback={() => setComponentToShow("disksChoose")}></Main>
       )}

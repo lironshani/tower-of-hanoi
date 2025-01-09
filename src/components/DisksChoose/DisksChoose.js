@@ -15,7 +15,6 @@ const DisksChoose = ({
 }) => {
   const [disksLocal, setDisksLocal] = useState(disks);
   const handleChange = (event) => {
-    console.log(event.target.value);
     setDisks(event.target.value);
     setDisksLocal(event.target.value);
   };
